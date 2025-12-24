@@ -136,8 +136,8 @@ body {
 /* CONTACT FORM */
 
 .contact-form {
-  max-width: 400px;
-  display: grid;
+  max-width: 600px;
+  display: flex;
   gap: 1rem;
 }
 
