@@ -136,8 +136,10 @@ body {
 /* CONTACT FORM */
 
 .contact-form {
-  max-width: 600px;
+  max-width: 600px;          /* makes the form wider */
+  margin: 2rem auto 0;       /* centers the form */
   display: flex;
+  flex-direction: column;
   gap: 1rem;
 }
 
