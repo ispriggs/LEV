@@ -38,7 +38,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: rgba(30, 58, 42, 0.95); /* dark green */
+  background: rgba(30, 58, 42, 1); /* dark green */
   padding: 1rem 3rem;
 }
 
