@@ -22,12 +22,14 @@ body {
 .hero {
   background:
     linear-gradient(rgba(0,0,0,.45), rgba(0,0,0,.45)),
-    url("../assets/images/hero.jpg") center / cover no-repeat;
+    url("https://cdn.sanity.io/images/5z5awbll/production/cf8be8cb6f0e25c88edf32096a8120fb9f627129-2000x1093.jpg?rect=181,0,1639,1093&w=2000&h=1334&auto=format")
+    center / cover no-repeat;
   color: white;
   height: 100vh;
   display: flex;
   flex-direction: column;
 }
+
 
 /* NAV */
 
