@@ -37,8 +37,11 @@ body {
 .nav {
   display: flex;
   justify-content: space-between;
-  padding: 1.5rem 3rem;
+  align-items: center;
+  background: rgba(30, 58, 42, 0.95); /* dark green */
+  padding: 1rem 3rem;
 }
+
 
 
 
