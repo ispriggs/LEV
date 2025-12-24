@@ -34,6 +34,27 @@ body {
 
 /* NAV */
 
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.sign-in-btn {
+  padding: 0.5rem 1.1rem;
+  border-radius: 4px;
+  background-color: #1f4d3a; /* deep green */
+  color: #ffffff;
+  font-weight: 500;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.sign-in-btn:hover {
+  background-color: #2f6b53;
+}
+
+
 .nav {
   display: flex;
   justify-content: space-between;
