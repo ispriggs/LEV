@@ -4,6 +4,26 @@
   --dark: #1e2a24;
 }
 
+.site-header {
+  background: #1e3a2a; /* dark green */
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.site-header .nav {
+  max-width: 1100px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 3rem;
+}
+
+.site-header a {
+  color: white;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -25,9 +45,9 @@ body {
     url("https://cdn.sanity.io/images/5z5awbll/production/cf8be8cb6f0e25c88edf32096a8120fb9f627129-2000x1093.jpg?rect=181,0,1639,1093&w=2000&h=1334&auto=format")
     center / cover no-repeat;
   color: white;
-  height: 100vh;
+  height: 85vh;
   display: flex;
-  flex-direction: column;
+  align-items: center;
 }
 
 
@@ -36,8 +56,9 @@ body {
 .nav {
   display: flex;
   justify-content: space-between;
-  padding: 1.5rem 3rem;
+  align-items: center;
 }
+
 
 .nav ul {
   list-style: none;
