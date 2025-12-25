@@ -30,6 +30,17 @@ body {
   flex-direction: column;
 }
 
+h2 {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+h3 {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
 
 
 /* NAV */
